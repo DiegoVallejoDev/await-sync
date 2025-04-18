@@ -1,0 +1,34 @@
+{
+  "name": "await-sync",
+  "version": "1.0.0",
+  "description": "Run async functions synchronously in Node.js using deasync. For scripting, CLI tools, and controlled environments.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/diegovallejodev/await-sync.git"
+  },
+  "keywords": [
+    "async",
+    "sync",
+    "await",
+    "blocking",
+    "deasync",
+    "synchronous",
+    "typescript",
+    "node"
+  ],
+  "author": "Diego Vallejo",
+  "license": "MIT",
+  "dependencies": {
+    "deasync": "^0.1.28"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
